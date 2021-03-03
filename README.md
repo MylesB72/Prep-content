@@ -8,7 +8,7 @@
     <title>Responsive HTML5 Page Layout Template</title>
     <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
     <link rel="stylesheet" href="html5-page-layout/style.css">
-    <script src="script.js"></script>
+    <script src="html5-page-layout/script.js"></script>
 </head>
 
 <body>
