@@ -1,77 +1,64 @@
-<!-- ######## This is a comment, visible only in the source editor  ######## -->
-<h1 style="color: #4485b8;">You can edit <span style="background-color: #4485b8; color: #ffffff; padding: 0 5px;">this demo</span> text!</h1>
-<p><strong style="color: #000;">Basic usage:</strong> Paste your documents in the visual editor on the left or your HTML code in the source editor in the right. <br />Edit any of the two areas and see the other changing in real time.&nbsp;</p>
-<h4>Use the table below to test most of the features</h4>
-<table class="editorDemoTable" style="vertical-align: top;">
-<thead>
-<tr>
-<td>Title</td>
-<td>Description 1</td>
-<td>Description 2</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="min-width: 140px;"><strong>Inline styles</strong></td>
-<td>Using <span style="font-weight: bold; color: #000; text-decoration: underline;">inline styles</span> in your HTML document is a bad practice because <strong style="font-weight: normal; font-size: 1.1em; color: #00a; font-family: monospace; letter-spacing: -2px;">they break the default styles of the website</strong>!</td>
-<td>Use classes and IDs instead!
-<div style="height: 20px; width: 100%; border: 3px dotted #888; background-color: rgba(0,0,0,0.2);">&nbsp;</div>
-</td>
-</tr>
-<tr>
-<td><strong>Setting margins</strong></td>
-<td style="background-color: rgba(0,0,0,0.1);">
-<p>&nbsp;&nbsp;&nbsp;Do not use &nbsp; &nbsp; &nbsp; &nbsp;spaces &nbsp; &nbsp; &nbsp;or &nbsp; &nbsp; &nbsp; empty paragraphs</p>
-<p>&nbsp;</p>
-<p>&nbsp; &nbsp; &nbsp; &nbsp;to set vertical and horizontal &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; gaps.</p>
-</td>
-<td><span style="line-height: 35px;">&larr;| &nbsp;Use <span style="margin: 5px;">margin, &nbsp;&nbsp;</span> <span style="padding: 5px;">padding, &nbsp; &rarr;|</span> <br />and line-height instead <strong style="font-size: 20px;">↕</strong> </span></td>
-</tr>
-<tr>
-<td><strong>Links and images</strong></td>
-<td><a style="font-weight: bold; color: #000; cursor: pointer; text-decoration: underline;" title="Demo link" href="https://html-online.com" target="_blank" rel="noopener">This is a text link</a> and this is an image: <img style="border: 2px solid #4485b8; border-radius: 15px;" src="/images/smiley.png" alt="laughing" width="20" height="20" /></td>
-<td>And this is a link image: <a style="cursor: pointer;" title="Image link" href="https://html-cleaner.com" target="_blank" rel="noopener"><img src="/images/smiley.png" alt="smiley" /></a></td>
-</tr>
-<tr>
-<td><strong>Tables and lists</strong></td>
-<td>
-<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
-<tbody>
-<tr style="border-top: 2px solid #555;">
-<td style="border: 2px dashed #555;">First cell</td>
-<td>Second column</td>
-<td>Upper corner</td>
-</tr>
-<tr style="background-color: rgba(0,0,0,0.1);">
-<td>Bottom row</td>
-<td>Middle bottom</td>
-<td>Right corner</td>
-</tr>
-</tbody>
-</table>
-</td>
-<td>
-<ol>
-<li>Demonstrating an ordered list</li>
-<li>These are&nbsp;special characters: <span style="color: red; font-size: 17px;">&hearts;</span> <strong style="font-size: 20px;">☺ ★</strong> &gt;&lt;</li>
-<li>item 2</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td valign="top"><strong>Floating an image</strong></td>
-<td>
-<h4>Floating with inline style</h4>
-<p><img style="margin: 0 0 5px 20px; float: right;" src="https://htmlg.com/images/demo-image.jpg" alt="Castle" width="155" height="156" />Lorem&nbsp;ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
-</td>
-<td>
-<h4>Floating with classes</h4>
-<p><img class="imageRight" src="https://htmlg.com/images/demo-image.jpg" alt="Dover" width="155" height="156" />Lorem&nbsp;ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p></p>
-<hr />
-<p><em>&copy; htmlg.com</em></p>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Responsive HTML5 Page Layout Template</title>
+    <meta name="description" content="Simple HTML5 Page layout template with header, footer, sidebar etc.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div id="logo"><img src="/logo.png">HTML5&nbsp;Layout</div>
+		<nav>  
+			<ul>
+				<li><a href="/">Home</a>
+				<li><a href="https://html-css-js.com/">HTML</a>
+				<li><a href="https://html-css-js.com/css/code/">CSS</a>
+				<li><a href="https://htmlcheatsheet.com/js/">JS</a>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<strong>Demonstration of a simple page layout using HTML5 tags: header, nav, section, main, article, aside, footer, address.</strong>
+	</section>
+	<section id="pageContent">
+		<main role="main">
+			<article>
+				<h2>Stet facilis ius te</h2>
+				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
+			</article>
+			<article>
+				<h2>Illud mollis moderatius</h2>
+				<p>Eum facete intellegat ei, ut mazim melius usu. Has elit simul primis ne, regione minimum id cum. Sea deleniti dissentiet ea. Illud mollis moderatius ut per, at qui ubique populo. Eum ad cibo legimus, vim ei quidam fastidii.</p>
+			</article>
+			<article>
+				<h2>Ex ignota epicurei quo</h2>
+				<p>Quo debet vivendo ex. Qui ut admodum senserit partiendo. Id adipiscing disputando eam, sea id magna pertinax concludaturque. Ex ignota epicurei quo, his ex doctus delenit fabellas, erat timeam cotidieque sit in. Vel eu soleat voluptatibus, cum cu exerci mediocritatem. Malis legere at per, has brute putant animal et, in consul utamur usu.</p>
+			</article>
+			<article>
+				<h2>His at autem inani volutpat</h2>
+				<p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad vix, vel nisl albucius gloriatur no.</p>
+			</article>
+		</main>
+		<aside>
+			<div>Sidebar 1</div>
+			<div>Sidebar 2</div>
+			<div>Sidebar 3</div>
+		</aside>
+	</section>
+	<footer>
+		<p>&copy; You can copy, edit and publish this template but please leave a link to our website | <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a></p>
+		<address>
+			Contact: <a href="mailto:me@example.com">Mail me</a>
+		</address>
+	</footer>
+
+
+</body>
+
+</html>
